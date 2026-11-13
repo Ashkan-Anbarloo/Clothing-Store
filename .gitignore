@@ -1,0 +1,44 @@
+# محیط‌های مجازی
+venv/
+.venv/
+env/
+ENV/
+
+# فایل‌های کش پایتون
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# فایل‌های محیطی و اطلاعات حساس، رمزها و کلیدها (بسیار مهم!)
+.env
+*.env
+secret.key
+credentials.json
+
+# دیتابیس لوکال
+db.sqlite3
+*.sqlite3
+
+# تنظیمات IDE و ویرایشگرها
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# پوشه‌های مدیا و آپلود کاربران (تصاویر، فایل‌ها و...)
+media/
+staticfiles/
+images/
+uploads/
+
+# پسوندهای تصویری و رسانه‌ای (برای جلوگیری از رفتن عکس به گیت‌هاب)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.svg
+
+# تنظیمات محلی جنگو (در صورت نیاز به حذف کامل settings اختصاصی)
+# sabzshop/settings.py
